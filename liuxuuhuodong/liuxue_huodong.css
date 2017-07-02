@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+}
+.liuxue_huodong_main{
+    width: 1180px;
+    /*height: 396px;*/
+    margin:0 auto;
+    overflow: hidden;
+    clear: both;
+}
+.liuxue_title{
+    height: 80px;
+    padding:20px 0;
+}
+.liuxue_title_h3{
+    height: 40px;
+    background: #f3f3f3;
+}
+.liuxue_title_right p{
+    height:22px;
+    margin-right:10px;
+    display: inline-block;
+    float:right;
+    line-height: 22px;
+    font-size: 14px;
+    color:#666666;
+    width:166px;
+    margin-top:8px;
+
+}
+.liuxue_title_h3 p b{
+     width: 100px;
+     height: 22px;
+     display: inline-block;
+     background:#ffffff;
+     margin-left:10px;
+     font-size: 12px;
+     font-weight: normal;
+    padding:0 10px;
+ }
+.liuxue_title_h3 p b i{
+    font-style: normal;
+}
+.liuxue_title_h3 p b img{
+    width:8px;
+    height:6px;
+    margin-left:38px;
+}
+
+
+.liuxue_title span{
+    display: inline-block;
+    height: 40px;
+    width: 118px;
+    background: #c13232;
+    line-height: 40px;
+    text-align: center;
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.more{
+    height:30px;
+    line-height: 30px;
+    padding:0 16px;
+}
+.more a{
+    float:right;
+    font-size:12px;
+    color:#808080;
+}
+.liuxue_huodong{
+    height:316px;
+
+}
+.liuxue_huodong dl{
+    width:220px;
+    height:314px;
+    border:1px solid #dcdcdc;
+    float: left;
+    *margin-right:8px;
+
+    margin-right:16px;
+    padding:14px;
+    *padding:14px;
+    padding:14px !important;
+}
+.liuxue_huodong dl.right{
+    float:right;
+    margin-right:0;
+}
+.liuxue_huodong dl dt{
+    width:180px;
+    height:150px;
+    position: relative;
+    padding: 6px 6px;
+}
+.liuxue_huodong dl dt img{
+    width:180px;
+    height:150px;
+}
+.liuxue_huodong dl dt .liuxue_huodong_z{
+    width:180px;
+    height: 150px;
+    position: absolute;
+    background: #000;
+    opacity: 0.3;
+    left:6px;
+    top:6px;
+}
+.liuxue_huodong dl dd{
+    margin-top:6px;
+}
+
+.liuxue_huodong dl dd h6{
+    line-height: 50px;
+    font-size:16px;
+    color:#333333;
+}
+.liuxue_huodong dl dd .huodong_time{
+    line-height:24px;
+    font-size:14px;
+    color:#666666
+}
+.liuxue_huodong dl dd .huodong_yuyue{
+    text-align: center;
+    margin-top:8px;
+}
+.liuxue_huodong dl dd p span{
+    display: inline-block;
+    padding: 8px 30px;
+    color:#ffffff;
+    background: #c13232;
+    text-align: center;
+
+}
+.liuxue_mianshi{
+    width:1180px;
+    height:140px;
+    margin:20px auto;
+    border:1px solid #dcdcdc;
+    font-size:14px;
+    padding:18px 20px;
+
+}
+.liuxue_mianshi ul{
+    width:360px;
+    float:left;
+}
+.liuxue_mianshi ul:nth-child(2){
+    margin:0 28px
+}
+.liuxue_mianshi ul:last-child{
+    float: right;
+}
+
+.liuxue_mianshi ul li{
+    line-height: 34px;
+}
+
+.liuxue_mianshi ul li a{
+    color:#333333;
+    font-size: 16px;
+}
+
+.ms_time{
+    padding-right: 10px;
+}
+.city-box{position: absolute;z-index: 999;display:none;top:30px; width: 564px;left:690px; background: #fff; border-top: 4px solid #D41B2B;}
+.city-box .arrow{position: absolute; top:-9px; left: 112px; background: url(../images/ico_24.png) 10px center no-repeat; width: 5px; height: 9px; display: inline-block;}
+.city-box .city-cont{ border-top: none; padding: 18px 0;}
+.city-box .city-cont a{float: left; width: 70px; text-align: center; padding: 0 5px; display: block; color: #666; font-size:14px; line-height: 28px;}
+.city-box .city-cont a:hover{color: #C13232;}
+.liuxue_title_right:hover .city-box{display: block;}
+
+.liuxue_title{
+    height: 40px;
+    background: #f3f3f3;
+}
+.liuxue_title_left{
+    width: 120px;
+    float: left;
+    height: 40px;
+    margin-top:-20px;
+}
+.liuxue_title_right{
+    width: 190px;
+    float: right;
+    height: 40px;
+    margin-top:-20px;
+}
+.liuxue_title_right img{
+    width:8px;
+    height:6px;
+    margin-left:38px;
+}
+.liuxue_title_right b{
+    width: 100px;
+    height: 22px;
+    display: inline-block;
+    background:#ffffff;
+    margin-left:10px;
+    font-size: 12px;
+    font-weight: normal;
+    padding:0 10px;
+}
+.liuxue_title_right b i{
+    font-style: normal;
+}
+
+
+
+
+
